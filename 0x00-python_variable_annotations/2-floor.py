@@ -2,7 +2,7 @@
 """Basic annotations - add"""
 
 
-def floor(n: float):
+def floor(n: float) -> int:
     """function floor"""
     if n >= 0:
         return int(n)
